@@ -47,6 +47,6 @@ class VoskRecognizer:
 
 # Uso de la clase VoskRecognizer
 if __name__ == "__main__":
-    model_path = r"C:\Users\Millow\Desktop\API_VOSK\backend\Jarvi\vosk-model-small-es-0.42"
+    model_path = r"C:\Users\DEV JUNIOR\Documents\api_vosk\backend\model_vosk\vosk-model-small-es-0.42"
     recognizer = VoskRecognizer(model_path)
     recognizer.continuous_recognition()
