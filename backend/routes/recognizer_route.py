@@ -1,10 +1,10 @@
 from fastapi import APIRouter
 from controllers.recogn_controller import *
-from controllers.recogn_controller2 import *
+from controllers.recognchat_controller import *
 
 router = APIRouter()
 
-model_path = r"C:\Users\userd\OneDrive\Escritorio\api_vosk\backend\model_vosk\vosk-model-small-es-0.42"
+model_path = r"C:\Users\DEV JUNIOR\Documents\api_vosk\backend\model_vosk\vosk-model-small-es-0.42"
 recognizer = VoskRecognizer(model_path)
 recognizer_bot = SimpleChatbot(model_path)
 

@@ -10,3 +10,5 @@ anomalía
 va
 hola
 hola
+penas
+esto guarda en la base de datos
